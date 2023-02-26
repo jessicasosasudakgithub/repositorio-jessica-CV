@@ -1,0 +1,40 @@
+.seccion-principal{ /*conteine a todos los contenedores, tiene una imagen de fondo fija*/
+    max-width: 98%;
+    margin: 3em auto;
+    background-image: linear-gradient(rgba(17, 15, 15, 0.5), rgba(34, 25, 25, 0.5)), url("../imagenes/body/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+#datos-personales, #estudios, #experiencia-laboral, #trabajo-actual, #idioma, #formulario-contactos{ /*se le aplica el mismo formato a cada uno de las secciones*/
+    border: solid 1px  rgb(255, 166, 0);
+    margin:auto;
+    margin-top: 2em;
+    font-family: 'BenchNine', sans-serif;
+    background-color:  rgba(17, 17, 18, 0.8);
+    color:#ef1c1c;
+    font-size: 25px;
+   
+    max-width: 60%;
+    
+
+}
+
+.seccion-principal li{
+    margin-left: 4em;
+    
+    list-style: none;
+}
+.seccion-principal h2{
+    text-shadow: 1px 1px 0 #fff;
+    text-align: center;
+}
+#formulario-contactos{
+    text-align: center;
+    border:solid 3px rgb(15, 2, 2);
+    width: 100%;
+    margin:2em auto;
+}

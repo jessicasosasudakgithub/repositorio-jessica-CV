@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/seccion.css">
+    <link rel="stylesheet" href="css/footer.css">
+<!--favicon  -->
+<link rel="icon" href="imagenes/header/favicon.ico">
+
+<!-- Google Font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=BenchNine&display=swap" rel="stylesheet">}
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/a354008764.js" crossorigin="anonymous"></script>
+    
+<!-- Imágenes en carpeta local -->
+    <link rel="stylesheet" href="style.css">
+    <title>Curriculo Sosa Jessica</title>
+<!-- java script -->
+<script src="js/app.js"></script>
+</head>
+<body>
+    <!-- Encabezado de Página -->
+    <header class="header">        
+        <div class="contenedor-logo-titular">
+            <div class="logo"><img src="imagenes/header/logo-principal200.jpg" alt=""></div>
+            <div class="titular">
+                <h1>Jessica Beatriz Sosa Sudak <br> 
+                    <span>Profesora en Tecnología de la Información y la comunicación</span>
+                </h1>
+            </div>
+        </div>
+         <!-- se  utiliza un check para activar y desactivar el menú responsive -->
+        <input type="checkbox" id="chk-icono-menu">
+        <label for="chk-icono-menu"><img src="imagenes/header/icono-menu.png" alt=""></label>
+        <nav>
+            <ul>
+                <li><i class="fa-solid fa-user">  </i>  <a href="#datos-personales">Datos Personales</a></li>
+                <li><i class="fa-solid fa-user-graduate"></i>  <a href="#estudios">Estudios</a></li>
+                <li><i class="fa-regular fa-lightbulb"></i>  <a href="#experiencia-laboral">Experiencia</a></li>
+                <li><i class="fa-sharp fa-solid fa-briefcase"></i> <a href="#trabajo-actual">Trabajo Actual</a></li>
+                <li><i class="fa-solid fa-book-atlas"></i><a href="#idioma"> Idioma</a></li>
+                <li><i class="fa-brands fa-wpforms"></i>  <a href="#formulario-contactos">Formulario de Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- SECCION PRINCIPAL  -->
+    <section class="seccion-principal">
+        <!-- seccion de datos personales -->
+        <section id="datos-personales">
+             <h2>Datos Personales</h2>
+            <div class="datos-personales">
+                <ul>
+                    <li>  Apellido y Nombre: Sosa Sudak Jessica Beatriz</li>
+                    <li>  DNI: 31.236.063</li>
+                    <li>  Fecha de Nacimiento: 15/09/1993</li>
+                    <li>  Nacionalidad: Argentina</li>
+                    <li>  Provincia: Chaco</li>
+                    <li>  Localidad: Presidencia Roque Sáenz Peña</li>
+                    <li>  Domicilio: Av. 2 e/37 y 39 Barrio Centro</li>
+                    
+                </ul>
+            </div>
+        </section>
+        <!-- sección de estudios -->
+        <section id="estudios">
+            <h2>Estudios</h2>
+            <div class="estudios">
+                <ul>
+                    <li>Título Secundario: Bachiller</li>
+                    <li>Título Terciario: Profeorado en Tecnología de la Información y la comunicación</li>
+                    <li>Diplomatura en Resolucion de Conflictos en el Aula</li>
+                    <li>Diplomatura en Mediacion Educativa</li>
+                    <li>Diplomatura en Gestion Educativa</li>
+                    <li>Diplomatura en Tecnologías de la Información y la comunicación</li>
+                    <li>Diplomatura en Pedagogía</li>
+                </ul>
+            </div>
+        </section>
+        <!-- sección experiencia laboral -->
+        <section id="experiencia-laboral">
+            <h2>Experiencia</h2>
+            <div class="experiencia">          
+                <ul>
+                    <li>Docente: 4 años de antiguedad- Profesora de Informática y TIC</li>
+                    <li>Administrador de Redes informáticas: 2 años </li>
+                    <li>ATP Mantenimiento de Salas de Informática: 2años</li>
+                    <li>Personal de Mantenimiento informatico en Negocio de Moda Tus Encantos: 1 años</li>
+
+                </ul>
+            </div>
+        </section>
+        <!-- sección trabajo actual -->
+        <section id="trabajo-actual">
+            <h2>Trabajo Actual</h2>
+            <div class="trabajo">
+                <ul>
+                    <li>Profesora de Informática y TIC</li>
+                    <li>ATP Mantenimiento de Salas Informáticas (Hardware y Software) </li>
+                    <li>Mantenimiento de Redes de Información de Intitucion Educativa</li>
+                    
+                </ul>
+            </div>
+        </section>
+        <!-- seccion idioma -->
+        <section id="idioma">
+            <h2>Idioma</h2>
+            <div class="idioma">
+                <ul>
+                    <li>Castellano</li>
+                    <li>Ingés Intermedio</li>                    
+                </ul>
+            </div>
+        </section>
+
+        <!-- sección formulario de contacto -->
+        <section id="formulario-contactos">
+            <form action="" id="formulario" onsubmit="return validacion();">
+                <label >Apellido y Nombre</label> 
+                <input type="text" id="nombre" name="nombre" required><br>
+                <label >Correo Electrónico</label>
+                <input type="email" id="email" name="email" required><br>
+                <textarea name="mensaje" id="mensaje" rows="20" cols="60" ></textarea> <br>
+                <input type="submit" class="submit">            
+            </form>
+        </section>
+    </section>
+    
+    <!--pie de pagina, contiene los elementos del menú y las redes -->
+    <footer>
+        <div class="enlaces">
+            <nav>
+                <ul>
+                    <li><i class="fa-solid fa-user">  </i>  <a href="#datos-personales">Datos Personales</a></li>
+                    <li><i class="fa-solid fa-user-graduate"></i>  <a href="#estudios">Estudios</a></li>
+                    <li><i class="fa-regular fa-lightbulb"></i>  <a href="#experiencia-laboral">Experiencia</a></li>
+                    <li><i class="fa-sharp fa-solid fa-briefcase"></i> <a href="#trabajo-actual">Trabajo Actual</a></li>
+                    <li><i class="fa-solid fa-book-atlas"></i><a href="#idioma"> Idioma</a></li>
+                    <li><i class="fa-brands fa-wpforms"></i>  <a href="#formulario-contactos">Formulario de Contacto</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <h3> © Pagia Web Creada Por Sosa Sudak Jessica Beatriz - Año 2023</h3>
+    </footer>
+
+
+</body>
+</html>

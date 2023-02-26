@@ -1,0 +1,28 @@
+footer{
+    
+    margin: auto;
+    max-width: 98%;
+    background-color:  rgba(17, 17, 18, 0.5);
+    font-family: 'BenchNine', sans-serif;
+    color: #fff;
+    border: 3px solid rgb(255, 166, 0);
+}
+footer li a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+footer nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+footer h3{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
